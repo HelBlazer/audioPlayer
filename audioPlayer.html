@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+    <link rel="stylesheet" href="audioPlayer.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="logo.png" alt="My Logo" class="photo">AudioPlayer</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Coding Beats</h1>
+            <div>
+                <div class="songItem">
+                    <img src="cover1.jpg" alt="1">
+                    <span>Blu - Jon Bellion</span>
+                    <span class="songPlay">
+                        <span class="timeStamp"> 3:03 <img src="play.svg" width="15px" alt="playSong"></span>
+                    </span>
+                </div>
+            </div>
+            <div class="songItem">
+                <img src="cover2.jpeg" alt="1">
+                <span>The Less I Know The Better - Tame Impala</span>
+                <span class="songPlay">
+                    <span class="timeStamp"> 3:36 <img src="play.svg" width="15px" alt="playSong"></span>
+                </span>
+            </div>
+            <div class="songItem">
+                <img src="cover3.jpg" alt="1">
+                <span>Satellite - Paquin</span>
+                <span class="songPlay">
+                    <span class="timeStamp"> 3:11 <img src="play.svg" width="15px" alt="playSong"></span>
+                </span>
+            </div>
+            <div class="songItem">
+                <img src="cover4.jpeg" width="125px" height="auto" alt="1">
+                <span>Fairytale - Alexander Rybak</span>
+                <span class="songPlay">
+                    <span class="timeStamp"> 3:02 <img src="play.svg" width="15px" alt="playSong"></span>
+                </span>
+            </div>
+        </div>
+        
+        </div>
+        
+        <div class="songLogo">
+
+
+        </div>
+    </div>
+
+    <div class="bar">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+            <img src="backward.svg" alt="previous song">
+            <img src="play.svg" alt="play/pause">
+            <img src="forward.svg" alt="next song">
+        </div>
+    </div>
+    <script src="audioPlayer.js"></script>
+</body>
+</html>
